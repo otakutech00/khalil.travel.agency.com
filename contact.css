@@ -1,0 +1,91 @@
+*{
+    text-decoration: none;
+    
+  }
+  body{
+    background-image: url('wp4782898.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .navbar{
+    background: rgb(0, 74, 106); font-family: calibri; padding-right: 17px;padding-left: 15px;
+  }
+  .navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .logo a{
+    font-size: 35px; font-weight: 600; color: white;
+    font-family: myfont;
+  }
+  li{
+    list-style: none; display: inline-block;
+  }
+  li a{
+    color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+  }
+  
+  
+  button a{
+    color: white; font-weight: bold; font-size: 15px;
+  }
+  @font-face {
+    font-family: myfont;
+    src: url(freefont.ttf);
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  textarea {
+    height: 150px;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    background-color: rgb(0, 74, 106);
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: rgb(0, 51, 72);
+  }
+
+  .message {
+    text-align: center;
+    color: #333;
+    margin-top: 10px;
+  }
